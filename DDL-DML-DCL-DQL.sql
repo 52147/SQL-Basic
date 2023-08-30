@@ -28,6 +28,7 @@ DELETE FROM employees WHERE name = 'John';
 
 
 -- 3. Data Control Language (DCL): 
+
 -- GRANT: Gives a user permission to perform certain tasks.
 GRANT SELECT ON employees TO user1;
 -- REVOKE: Takes back permissions granted to a user.
